@@ -1,0 +1,23 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.head-title{
+    
+}
+
+.head-search{
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient( #C98CF1 0%, #8B78E5 100%) border-box;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    width: 40em;
+    padding: 1em;
+}
+
+.head-search:focus{
+    outline: none;
+}
