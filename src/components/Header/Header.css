@@ -2,22 +2,38 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 5%;
+    margin: 0 2%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .head-title{
-    
+    color: #FFFFFF;
 }
 
 .head-search{
-    background: linear-gradient(white, white) padding-box,
+    background: linear-gradient(#041833, #041833) padding-box,
               linear-gradient( #C98CF1 0%, #8B78E5 100%) border-box;
     border-radius: 10px;
     border: 2px solid transparent;
     width: 40em;
     padding: 1em;
+    color: #D9D9D9 ;
+    font-family: 'Poppins', sans-serif;
 }
 
 .head-search:focus{
     outline: none;
+}
+
+.search{
+    position: relative;
+}
+
+.icon{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    padding: 0.7em;
 }
