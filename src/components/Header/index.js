@@ -9,8 +9,7 @@ const Header = () => {
         <section className='head'>
 
             <figure className='head-title'>
-                <img  src='#' alt=''/>
-                <h1>Alura Space</h1>
+                <img src='../assets/logo.png' alt='Logo do Alura Space' />
             </figure>
 
             <section className='search'>

@@ -1,16 +1,15 @@
-import Header from './components/Header';
-import Navigation from './components/Navigation';
 import './App.css'
+
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <div className='all'>
 
-      <Header />
-      <Navigation />
+      <HomePage />
 
     </div>
-  );
+  );    
 }
 
 export default App;
