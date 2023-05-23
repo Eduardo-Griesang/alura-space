@@ -6,7 +6,7 @@ import Banner from '../../components/Banner'
 
 const HomePage = () => {
     return (
-        <>
+        <body>
             <Header />
             
             <main>
@@ -15,7 +15,7 @@ const HomePage = () => {
                     <Banner />
                 </section>
             </main>
-        </>
+        </body>
     )
 }
 
