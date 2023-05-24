@@ -3,12 +3,6 @@ body {
 }
 
 @font-face {
-  font-family: "GandhiSans";
-  src: local(GandhiSans) url(./fonts/GandhiSans-Regular.otf);
-}
-
-.font-face-GS {
-  font-family: 'GandhiSans';
-  font-weight: 500;
-  font-size: 1.5em;
+  font-family: "GandhiSansRegular";
+  src: local("GandhiSansRegular"), url(./fonts/GandhiSans-Regular.otf);
 }
