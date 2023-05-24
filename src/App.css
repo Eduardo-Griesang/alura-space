@@ -1,4 +1,6 @@
+@import './index.css';
+
 .all{
     height: 100vh;
-    background: linear-gradient(#041833 0%, #04244F 47.35%, #154580 100%);
+    background: linear-gradient(var(--dark-blue) 0%, var(--blue) 47.35%, var(--light-blue) 100%);
 }

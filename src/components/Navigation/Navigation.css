@@ -1,3 +1,5 @@
+@import '../../index.css';
+
 .nav{
     margin: 3em 2%;
 }
@@ -6,7 +8,7 @@
     display: flex;
     gap: 1.5em;
     margin-bottom: 1.8em;
-    color: #D9D9D9;
+    color: var(--light-gray);
     list-style: none;
     font-family: "GandhiSansRegular";
     font-size: 1em;
@@ -19,6 +21,5 @@
 }
 
 .nav ul:first-child{
-    color: #7B78E5;
     font-weight: 700;
 }

@@ -6,3 +6,13 @@ body {
   font-family: "GandhiSansRegular";
   src: local("GandhiSansRegular"), url(./fonts/GandhiSans-Regular.otf);
 }
+
+:root{
+  --font : "GandhiSansRegular";
+  --purple : #7B78E5;
+  --dark-blue: #041833;
+  --blue : #04244F;
+  --light-blue : #154580;
+  --light-gray : #D9D9D9;
+  --white: #FFFFFF;
+}
