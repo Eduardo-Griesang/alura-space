@@ -10,13 +10,13 @@
     margin-bottom: 1.8em;
     color: var(--light-gray);
     list-style: none;
-    font-family: "GandhiSansRegular";
+    font-family: var(--regular);
     font-size: 1em;
     text-decoration: none;
 }
 
 .nav-item li{
-    font-family: "GandhiSansRegular";
+    font-family: var(--regular);
     font-size: 1.3em;
 }
 

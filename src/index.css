@@ -7,12 +7,19 @@ body {
   src: local("GandhiSansRegular"), url(./fonts/GandhiSans-Regular.otf);
 }
 
+@font-face {
+  font-family: "GandhiSansBold";
+  src: local("GandhiSansBold"), url(./fonts/GandhiSans-Bold.otf);
+}
+
 :root{
-  --font : "GandhiSansRegular";
+  --regular : "GandhiSansRegular";
+  --bold : "GandhiSansBold";
   --purple : #7B78E5;
   --dark-blue: #041833;
   --blue : #04244F;
   --light-blue : #154580;
   --light-gray : #D9D9D9;
   --white: #FFFFFF;
+
 }

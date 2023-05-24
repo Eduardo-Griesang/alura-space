@@ -1,9 +1,11 @@
+@import '../../index.css';
+
 .head{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 2%;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--regular);
 }
 
 .head-title{
@@ -15,11 +17,10 @@
               linear-gradient( #C98CF1 0%, #8B78E5 100%) border-box;
     border-radius: 10px;
     border: 2px solid transparent;
-    font-family: "GandhiSansRegular";
+    font-family: var(--regular);
     width: 40em;
     padding: 1em;
     color: #D9D9D9 ;
-    font-family: 'Poppins', sans-serif;
 }
 
 .head-search:focus{
