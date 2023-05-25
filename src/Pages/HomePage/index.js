@@ -3,6 +3,7 @@ import './HomePage.css'
 import Header from "../../components/Header"
 import Navigation from "../../components/Navigation"
 import Banner from '../../components/Banner'
+import Footer from '../../components/Footer'
 
 const HomePage = () => {
     return (
@@ -15,6 +16,10 @@ const HomePage = () => {
                     <Banner />
                 </section>
             </main>
+
+            <footer>
+                <Footer />
+            </footer>
         </body>
     )
 }

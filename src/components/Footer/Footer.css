@@ -1,0 +1,20 @@
+@import '../../index.css';
+
+.foot{
+    background: var(--blue);
+    padding: 3em 1em;
+    margin-top: 25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot a{
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+.foot h3{
+    color: var(--white);
+    font-family: var(--regular);
+}
