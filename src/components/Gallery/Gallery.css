@@ -1,0 +1,11 @@
+@import '../../index.css';
+
+.gallery-tags{
+    margin-top: 8em;
+}
+
+.gallery-tags h2{
+    font-family: var(--regular);
+    color: var(--purple);
+    font-size: 1.7em;
+}

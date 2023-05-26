@@ -4,6 +4,7 @@ import Header from "../../components/Header"
 import Navigation from "../../components/Navigation"
 import Banner from '../../components/Banner'
 import Footer from '../../components/Footer'
+import Gallery from '../../components/Gallery'
 
 const HomePage = () => {
     return (
@@ -13,7 +14,10 @@ const HomePage = () => {
             <main>
                 <section className='first-section'>
                     <Navigation />
-                    <Banner />
+                    <div>
+                        <Banner />
+                        <Gallery />
+                    </div>
                 </section>
             </main>
 

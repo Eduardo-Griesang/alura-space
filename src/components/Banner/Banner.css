@@ -2,11 +2,10 @@
 
 .banner{
     position: relative;
-    margin-right: 4%;
 }
 
 .banner-img{
-    transform: scaleX(1.07);
+    transform: scaleX(1.15);
 }
 
 .banner h2{
@@ -16,6 +15,6 @@
     font-weight: 400;
     position: absolute;
     top: 17%;
-    left: 3%;
+    left: 1%;
     width: 25%;  
 }
