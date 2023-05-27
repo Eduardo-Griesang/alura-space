@@ -1,0 +1,32 @@
+[
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "source": "/assets/imagens/populares/foto-1.png",
+        "id": "1"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "source": "/assets/imagens/populares/foto-2.png",
+        "id": "2"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "source": "/assets/imagens/populares/foto-3.png",
+        "id": "3"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "source": "/assets/imagens/populares/foto-4.png",
+        "id": "4"
+    },
+    {
+        "titulo": "Nome da Foto",
+        "creditos": "Alura Space",
+        "source": "/assets/imagens/populares/foto-5.png",
+        "id": "5"
+    }
+]

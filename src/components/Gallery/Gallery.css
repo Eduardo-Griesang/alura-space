@@ -4,6 +4,10 @@
     margin-top: 8em;
 }
 
+.gallery-wrapper{
+    display: flex;
+}
+
 .gallery-tags h2{
     font-family: var(--regular);
     color: var(--purple);
@@ -38,7 +42,6 @@
 }
 
 .pic-info{
-    display: block;
     padding: 2.5% 5%;
     background: var(--blue);
     border-bottom-left-radius: 20px;
@@ -53,10 +56,19 @@
     margin: 0;
 }
 
+.pic-info section{
+    display: flex;
+    justify-content: space-between
+}
+
 .pic-info section p {
     color: var(--white);
     font-family: var(--regular);
     font-size: 1em;
     font-weight: 400;
     margin: 0;
+}
+
+.pic-info-icons{
+    gap: 0.5em;
 }
