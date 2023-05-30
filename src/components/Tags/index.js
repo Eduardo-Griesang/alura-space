@@ -1,15 +1,27 @@
 import './Tags.css'
 
-const Tags = () => {
+const Tags = ( {func} ) => {
+
+    function changeTag (i){
+        const filtro = i.target.innerHTML
+
+        if (filtro === "Remover") {
+            func("")
+        } else {
+            func(filtro)
+        }
+    }
+
     return (
         <ul className='tags'>
                 <h3>Busque por tags:</h3>
 
                 <section>
-                    <button>Estrelas</button>
-                    <button>Galáxias</button>
-                    <button>Lua</button>
-                    <button>Planetas</button>
+                    <button onClick={changeTag}>Remover</button>
+                    <button onClick={changeTag}>Estrelas</button>
+                    <button onClick={changeTag}>Galáxias</button>
+                    <button onClick={changeTag}>Lua</button>
+                    <button onClick={changeTag}>Planetas</button>
                 </section>
         </ul>
     )
